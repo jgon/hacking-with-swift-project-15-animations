@@ -13,6 +13,8 @@
 		C407C0881C73A64E0021BC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C407C0871C73A64E0021BC9C /* Assets.xcassets */; };
 		C407C08B1C73A64E0021BC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C407C0891C73A64E0021BC9C /* LaunchScreen.storyboard */; };
 		C407C0961C73A64E0021BC9C /* Project15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C407C0951C73A64E0021BC9C /* Project15Tests.swift */; };
+		C407C0A31C73A67D0021BC9C /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = C407C0A11C73A67D0021BC9C /* penguin.png */; };
+		C407C0A41C73A67D0021BC9C /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C407C0A21C73A67D0021BC9C /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C407C0911C73A64E0021BC9C /* Project15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C407C0951C73A64E0021BC9C /* Project15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project15Tests.swift; sourceTree = "<group>"; };
 		C407C0971C73A64E0021BC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C407C0A11C73A67D0021BC9C /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		C407C0A21C73A67D0021BC9C /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		C407C07F1C73A64E0021BC9C /* Project15 */ = {
 			isa = PBXGroup;
 			children = (
+				C407C0A01C73A67D0021BC9C /* Content */,
 				C407C0801C73A64E0021BC9C /* AppDelegate.swift */,
 				C407C0821C73A64E0021BC9C /* ViewController.swift */,
 				C407C0841C73A64E0021BC9C /* Main.storyboard */,
@@ -94,6 +99,15 @@
 				C407C0971C73A64E0021BC9C /* Info.plist */,
 			);
 			path = Project15Tests;
+			sourceTree = "<group>";
+		};
+		C407C0A01C73A67D0021BC9C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				C407C0A11C73A67D0021BC9C /* penguin.png */,
+				C407C0A21C73A67D0021BC9C /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +191,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C407C0A31C73A67D0021BC9C /* penguin.png in Resources */,
 				C407C08B1C73A64E0021BC9C /* LaunchScreen.storyboard in Resources */,
 				C407C0881C73A64E0021BC9C /* Assets.xcassets in Resources */,
 				C407C0861C73A64E0021BC9C /* Main.storyboard in Resources */,
+				C407C0A41C73A67D0021BC9C /* penguin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
