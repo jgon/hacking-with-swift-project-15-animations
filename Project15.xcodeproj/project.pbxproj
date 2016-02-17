@@ -40,6 +40,7 @@
 		C407C0971C73A64E0021BC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C407C0A11C73A67D0021BC9C /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
 		C407C0A21C73A67D0021BC9C /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
+		C49DE33C1C74E0F7001C1598 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		C407C0741C73A64E0021BC9C = {
 			isa = PBXGroup;
 			children = (
+				C49DE33C1C74E0F7001C1598 /* README.md */,
 				C407C07F1C73A64E0021BC9C /* Project15 */,
 				C407C0941C73A64E0021BC9C /* Project15Tests */,
 				C407C07E1C73A64E0021BC9C /* Products */,
@@ -404,6 +406,7 @@
 				C407C09C1C73A64E0021BC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C407C09D1C73A64E0021BC9C /* Build configuration list for PBXNativeTarget "Project15Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +415,7 @@
 				C407C09F1C73A64E0021BC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
